@@ -4,10 +4,13 @@
 
 
 #string functuins
-str = "i am studying py from online "
-print(str.endswith("vbgf"))
-print(str.capitalize())
-print(str.count("a"))
-print(str.find("py"))
-print(str.replace("py", "java"))
-print(str.split(" "))
+# str = "i am studying py from online "
+# print(str.endswith("vbgf"))
+# print(str.capitalize())
+# print(str.count("a"))
+# print(str.find("py"))
+# print(str.replace("py", "java"))
+# print(str.split(" "))
+
+tup=(1,)
+print(tup)

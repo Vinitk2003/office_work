@@ -1,11 +1,11 @@
   ## string
 # #concatenation
 # str1 = "hello"
-# print(len(str1))
+# # print(len(str1))
 # str2 = "world"
 # print(str1 + " " + str2)  # Output: hello world
 
 #indexing
-str = "apna college"
-ch = str[4]
-print(ch)  # Output: a
+str = "Vinit kshatriya"
+print(str[::-1])
+# print(ch)  

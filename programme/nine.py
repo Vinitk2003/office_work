@@ -1,14 +1,19 @@
 #nested if
 
-# age = int(input("enter the age"))
+age = 45
+  # Example age, you can change this value to test
 
-# if(age >= 18):
-#     if(age >= 65):
-#         print("You are a senior citizen")
-#     else:
-#         print("You are an adult")
-# else:
-#     print("You are a minor")
+if age == 18:
+    print("You are an adult")
+    if 18 <= age <= 60:  # Checks if age is between 18 and 60
+        print("You are young")
+    elif age >= 65:  # If age is 65 or more
+        print("You are a senior citizen")
+    else:
+        print("You are not an adult")
+else:
+    print("You are a minor")
+
 
 # practice enter num is odd or even
 # num = int(input("enter num"))
@@ -33,9 +38,13 @@
 
 # num multiple of seven
 
-x = int(input("enter nnum "))
+# x = int(input("enter nnum "))
 
-if(x % 7 == 0):
-    print("num is multiple of 7")
-else:
-    print("num is not multiple of 7")
+# if(x % 7 == 0):
+#     print("num is multiple of 7")
+# else:
+#     print("num is not multiple of 7")
+
+
+str1 = "hello"
+print(str1[::-1])
