@@ -22,3 +22,6 @@ text1 = "testhook"
 print(text1.removeprefix("test"))
 print(text1.removesuffix("hook"))
 print(text1.zfill(15)) 
+
+words = ['hello', 'world']
+print(  'vaidik'.join(words))  # Output: "hello world"

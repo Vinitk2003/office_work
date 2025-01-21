@@ -1,0 +1,17 @@
+#exception handling
+
+try:
+# code that might raise an exception
+    x = 1 / 0
+except ZeroDivisionError:
+    # handle the exception
+    print("Error: Division by zero is not allowed")
+else:
+# code to execute if no exception is raised
+    print("No exception was raised")
+
+
+
+
+    
+
