@@ -54,13 +54,7 @@
 //     }
 // }
 
-// let gameNum = 20;
 
-// let userNum = prompt("guess the num");
-
-// while(userNum == gameNum) {
-//     console.log("you won");
-// }
     
 
 
