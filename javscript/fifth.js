@@ -54,7 +54,15 @@
 //     }
 // }
 
+let gameNum = 20;
 
+let userNum = prompt("guess the num");
+
+while(userNum != gameNum) {
+   userNum = prompt("you enter wromng num:");
+}
+
+console.log("congratulations you won")
     
 
 
